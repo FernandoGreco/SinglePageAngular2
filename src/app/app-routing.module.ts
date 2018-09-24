@@ -1,3 +1,4 @@
+import { HomeComponent } from './home/home.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { NgModule, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -7,7 +8,8 @@ import { FaleConoscoComponent } from './fale-conosco/fale-conosco.component';
 
 const routes: Routes = [
   { path: 'sobre', component: SobreComponent },
-  { path: 'faleConosco', component: FaleConoscoComponent }
+  { path: 'faleConosco', component: FaleConoscoComponent },
+  { path: 'home', component: HomeComponent }
 
 ];
 
