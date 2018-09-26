@@ -7,6 +7,7 @@ import { FaleConoscoComponent } from './fale-conosco/fale-conosco.component';
 
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'sobre', component: SobreComponent },
   { path: 'faleConosco', component: FaleConoscoComponent },
   { path: 'home', component: HomeComponent }

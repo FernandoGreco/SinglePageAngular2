@@ -13,3 +13,25 @@ body{
     list-style:none;
     border:0
     }
+
+    .collapse.navbar-collapse {
+        margin-left: 9%;
+        margin-right: 9%;
+      
+    }
+
+    .navbar{
+        background-color: green;
+    }
+
+    .nav-item.active:hover{
+        background-color:#0B6121;
+    }
+
+    .card:hover,.carousel.slide:hover{
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    }
+
+    .btn{
+        background-color: #F7F8E0;
+    }
