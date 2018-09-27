@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\nbody {\n  background-color: #F7F8E0; }\n* {\n  padding: 0;\n  margin: 0;\n  vertical-align: baseline;\n  list-style: none;\n  border: 0; }\n.collapse.navbar-collapse {\n  margin-left: 9%;\n  margin-right: 9%; }\n.navbar {\n  background-color: green; }\n.nav-item.active:hover {\n  background-color: #0B6121; }\n.card:hover, .carousel.slide:hover {\n  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); }\n.btn {\n  background-color: #F7F8E0; }\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\nbody {\n  background-color: #F7F8E0; }\n* {\n  padding: 0;\n  margin: 0;\n  vertical-align: baseline;\n  list-style: none;\n  border: 0; }\n.navbar, .page-footer {\n  background-color: green; }\n.page-footer {\n  background-color: #F2F2F2; }\n.nav-item.active:hover {\n  background-color: #0B6121;\n  border-radius: 5px; }\n.card:hover, .carousel.slide:hover {\n  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); }\n.btn {\n  background-color: #F7F8E0; }\n@media (min-width: 576px) {\n  .card-columns {\n    -webkit-column-count: 1;\n            column-count: 1; }\n  .collapse.navbar-collapse {\n    margin-left: 1%;\n    margin-right: 1%; } }\n@media (min-width: 768px) {\n  .card-columns {\n    -webkit-column-count: 2;\n            column-count: 2; }\n  .collapse.navbar-collapse {\n    margin-left: 9%;\n    margin-right: 9%; } }\n@media (min-width: 992px) {\n  .card-columns {\n    -webkit-column-count: 3;\n            column-count: 3; } }\n"
 
 /***/ }),
 
