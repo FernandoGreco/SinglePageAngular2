@@ -14,18 +14,18 @@ body{
     border:0
     }
 
-    .collapse.navbar-collapse {
-        margin-left: 9%;
-        margin-right: 9%;
-      
+
+    .navbar,.page-footer{
+        background-color: green;
     }
 
-    .navbar{
-        background-color: green;
+    .page-footer{
+        background-color: #F2F2F2;
     }
 
     .nav-item.active:hover{
         background-color:#0B6121;
+        border-radius: 5px;
     }
 
     .card:hover,.carousel.slide:hover{
@@ -35,3 +35,45 @@ body{
     .btn{
         background-color: #F7F8E0;
     }
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .card-columns{
+        column-count: 1;
+    }
+
+    .collapse.navbar-collapse {
+        margin-left: 1%;
+        margin-right: 1%;
+      
+    }
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .card-columns{
+        column-count: 2;
+    }
+    .collapse.navbar-collapse {
+        margin-left: 9%;
+        margin-right: 9%;
+      
+    }
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  
+    .card-columns{
+        column-count: 3;
+    }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }

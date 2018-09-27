@@ -1,6 +1,6 @@
 <br><br><br>
 <div class="container">
-    <p style="font-size:4vw;"><b>Título com fonte responsiva</b></p><hr>
+    <p style="font-size:4vw; color: green;"><b>Título com fonte responsiva</b></p><hr>
     <i><h6>Layout feito utilizando Bootstrap 4 e Angular 2,3... Rotas para navegação de páginas (single Page)</h6></i>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -41,62 +41,121 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+<br>
 
-<div class="row">
-    <div class="col-sm-12 col-md-4 mt-4">
-  <div class="card">
-      <img class="card-img-top" src="assets/images/predios.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-12 col-md-4 mt-4">
-      <div class="card">
-      <img class="card-img-top" src="assets/images/por.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-12 col-md-4 mt-4">
-      <div class="card">
-      <img class="card-img-top" src="assets/images/predios.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-12 col-md-4 mt-4">
-    <div class="card">
-        <img class="card-img-top" src="assets/images/city.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4 mt-4">
+    <div class="card-columns">
         <div class="card">
-        <img class="card-img-top" src="assets/images/mar.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <img class="card-img-top" src="assets/images/predios.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
+            <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+          </div>
         </div>
-      </div>
-    </div>
-  
-    <div class="col-sm-12 col-md-4 mt-4">
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
         <div class="card">
-        <img class="card-img-top" src="assets/images/natureza.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <img class="card-img-top" src="assets/images/mar.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
         </div>
+        <div  class="card text-white bg-info mb-3 p-3">
+          <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <footer class="blockquote-footer text-white">
+              <small>
+                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="assets/images/city.jpg" alt="Imagem do card">
+        </div>
+        <div class="card p-3 text-right">
+          <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="assets/images/girassol.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Título do card</h5>
+              <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+              <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+            </div>
+          </div>
+
+
+          <div class="card text-white bg-dark mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="assets/images/nuvem.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Título do card</h5>
+                  <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                  <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                  <img class="card-img-top" src="assets/images/predios.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">Título do card</h5>
+                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                  </div>
+                </div>
+
+
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/por.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Título do card</h5>
+                      <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                  </div>
+
       </div>
-    </div>
 
 
       
-    </div>
 </div>
 
